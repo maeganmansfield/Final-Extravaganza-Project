@@ -5,6 +5,7 @@ html{
 .site-header{
     background-color: #BC0E0E;
     padding: 70px 70px 0 70px;
+    border-bottom: 4px solid #FF9040;
     
 }
 
@@ -27,3 +28,25 @@ body,h1,h2,ul,li{
     display: block;
 }
 
+.nav-links{
+    background-color: #FF9040;
+    padding: 4px 0;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px 6px 0 0;
+    color: black;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.nav-links:hover{
+    color:#FFEAAA;
+    
+}
+.hero{
+    background-image: url(homepage-hero-image.jpeg) ;
+    background-size: cover;
+    min-height: 400px;
+}
