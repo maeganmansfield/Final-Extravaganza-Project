@@ -1,0 +1,29 @@
+html{
+    background-color: #FFEAAA;
+}
+
+.site-header{
+    background-color: #BC0E0E;
+    padding: 70px 70px 0 70px;
+    
+}
+
+.site-links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+
+
+body,h1,h2,ul,li{
+    margin: 0; 
+    padding: 0;
+}
+
+.site-nav{
+    padding: 50px 0px 0px 0px;
+    display: block;
+}
+
