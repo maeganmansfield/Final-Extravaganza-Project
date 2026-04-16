@@ -46,7 +46,95 @@ body,h1,h2,ul,li{
     
 }
 .hero{
-    background-image: url(homepage-hero-image.jpeg) ;
+    background-image: url(hero-image-2.png) ;
     background-size: cover;
-    min-height: 400px;
+    height: 400px;
+    background-position: center;
+    margin-top: 60px;
+    border-top: 4px solid #FF9040;
+  
+}
+
+.gradient{
+    background: linear-gradient(0deg,rgba(255, 234, 170, 1) 0%, rgba(255, 234, 170, 0.2) 100%);
+    height: 100%;
+}
+
+
+
+.circle {
+  width: 550px;
+  height: 550px;
+  background-color: white;
+  border-radius: 50%;
+  max-width: 600px; 
+  margin:auto; 
+  padding:0px;
+  position: absolute;
+  top: 40%;
+  right: 31%;
+}
+
+.hero-logo{
+    max-width: 600px; 
+  margin:auto; 
+  padding:0px;
+  position: absolute;
+      top: 5%;
+    right: 24px;
+    height: 500px;
+
+}
+
+.hp-language{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 50px;
+    color: #FF9040;
+
+}
+
+.wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+} 
+
+hr{
+border:white;
+height: 10px;
+background-color: white;
+margin: 0px;
+}
+
+.stripe-2{
+border:#F9EC31;
+height: 10px;
+background-color: #F9EC31;
+}
+
+.stripe-3{
+border:black;
+height: 10px;
+background-color: black;
+}
+
+.stripe-4{
+border:#DD3337;
+height: 10px;
+background-color: #DD3337   
+}
+
+.events-hp{
+   margin: 10px;
+    display: flex;
+    align-items: center
+
+    
+}
+
+.quick-events{
+    margin: 10px;
+    display: flex;
+    align-items: center
 }
