@@ -1,5 +1,13 @@
-html{
+html,body{
     background-color: #FFEAAA;
+    max-width: 100%;
+}
+.header-boarder{
+    background-image:url("hp-image-assests/header-boarder.png");
+    background-size: cover;
+    height: 14px;
+    position: relative;
+    bottom: 70px;
 }
 
 .site-header{
@@ -9,13 +17,13 @@ html{
     
 }
 
+
 .site-links{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     color: black;
 }
-
 
 
 
@@ -62,7 +70,6 @@ body,h1,h2,ul,li{
 }
 
 
-
 .circle {
   width: 550px;
   height: 550px;
@@ -102,9 +109,23 @@ margin: 0px 20px 0px 20px;
 }
 
 .wrapper{
-    max-width: 600px;
-    margin: 0 auto;
-} 
+max-width: 1200px;
+margin: 0 auto;
+padding: 0px 100px;
+
+}
+
+.two-col-layout{
+    display: flex;
+}
+
+.left-col{
+    flex:0 0 50% ;
+}
+
+.right-col{
+    flex: 0 0 50%;
+}
 
 hr{
 border:white;
@@ -136,6 +157,8 @@ background-color: #DD3337
 display: flex;
 justify-content: space-between;
 list-style-type: none;
+margin-top:200px; 
+margin-bottom: 20px;
 }
 
 .body-tabs-headers{
@@ -154,20 +177,17 @@ font-size: 30px;
     width: 500px;
 }
 
-.body-tabs-position{
-    position: relative;
-    top:200px;
-    margin: 0px 100px 0px 100px;
-}
 
 .event-wrapper{
-position: relative;
-top: 250px;
-left: 100px;
 background-color: #FFC7A0;
 display: inline-block;
 border-radius: 6px 6px 6px 6px;
 width: 500px;
+}
+
+.body-tab-head-container{
+ display: flex;
+justify-content: center;
 }
 
 .month-header{
@@ -188,13 +208,50 @@ font-size: 30px;
 width: 80px;
 height: 80px;
 background-color: #BC0E0E;
-position: relative;
-top: -230px;
-left: 1200px;
+}
+
+.quick-links-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+ gap: 20px;
 }
 
 .quick-links-text{
-position: relative;
-top: -230px;
-left: 1160px;
+
+}
+
+.footer-pic-wrapper{
+background-image: url("hp-image-assests/foot-pic-2.jpg");
+background-size: cover;
+height: 92px;
+background-position: center center;
+opacity: 50%;
+margin-top: 100px;
+border-top: 2px solid black;
+}
+
+.site-footer{
+background-color: #BC0E0E;
+height: 250px;
+
+}
+
+.footer-links{
+list-style-type: none;
+display: flex;
+justify-content: space-evenly;
+}
+
+.footer-nav-links{
+    background-color: #FF9040;
+    padding: 4px 0;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px 6px 6px 6px;
+    color: black;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
 }
