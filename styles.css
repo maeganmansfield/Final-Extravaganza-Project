@@ -54,6 +54,59 @@ body,h1,h2,ul,li{
     color:#FFEAAA;
     
 }
+
+.dropdown{
+    background-color: #FFEAAA;
+    position: absolute;
+    list-style-type: none;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+
+.dropdown-trigger{
+    position: relative;
+}
+
+.dropdown-trigger:hover .dropdown{
+    display: block;
+   padding: 30px;
+   box-sizing: border-box;
+}
+
+.full-width{
+    width: 100%;
+    text-align: center;
+}
+
+.centered-links{
+    text-align: center;
+}
+
+.dropdown-links{
+    background-color: #E5680F;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 5px;
+    color: black;
+
+}
+
+.dropdown-links-color{
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-links-color:hover{
+    color: #FFEAAA;
+
+}
+
+
 .hero{
     background-image: url(hero-image-2.png) ;
     background-size: cover;
@@ -77,20 +130,19 @@ body,h1,h2,ul,li{
   border-radius: 50%;
   max-width: 600px; 
   margin:auto; 
-  padding:0px;
+  padding:10px;
   position: absolute;
   top: 40%;
-  right: 31%;
+  right: 0;
+  left: 0;
 }
 
 .hero-logo{
-    max-width: 600px; 
+width: 100%; 
   margin:auto; 
   padding:0px;
-  position: absolute;
-      top: 5%;
-    right: 24px;
-    height: 500px;
+  
+
 
 }
 
