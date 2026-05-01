@@ -1,42 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="contact-styles.css" rel="stylesheet">
-        <title>Contact Page</title>
-    </head>
-    <body>
-        <header class="contact-header">
-            <div class="hero-logo">
-                <a href="index.html">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contact-styles.css" rel="stylesheet">
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <header class="contact-header">
+        <div class="hero-logo">
+            <a href="index.html">
                 <img src="about-page-assests/logo-white.png" class="hero-logo-button">
             </a>
+        </div>
+        <nav class="contact-nav">
+            <ul class="contact-links">
+                <li class="contact-nav-links">
+                    <a href="index.html" class="contact-site-buttons">Home</a>
+                </li>
+                <li>
+                    <a href="" class="contact-site-buttons current-page">Contact</a>
+                </li>
+                <li class="dropdown-trigger">
+                   <div id="Departments">
+                    <a href="" class="contact-site-buttons">Departments</a>
+                    </div> 
+                    <ul class="dropdown centered-links">
+                        <li class="dropdown-links">
+                            <a href="#" class="dropdown-links-color">The Gathering Place</a>
+                        </li>
+                        <li class="dropdown-links">
+                            <a href="#" class="dropdown-links-color">Historical Preservation (THPO)</a>
+                        </li>
+                        <li class="dropdown-links">
+                            <a href="#" class="dropdown-links-color">Education</a>
+                        </li>
+                        <li class="dropdown-links">
+                            <a href="#" class="dropdown-links-color">Boys & Girls Club</a>
+                        </li>
+                        <li class="dropdown-links">
+                            <a href="#" class="dropdown-links-color">Head Start & Early Head Start</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown-trigger">
+                    <a href="about-us.html" class="contact-site-buttons">About</a>
+                    <ul class="dropdown full-width">
+                        <li class="dropdown-links">
+                            <a href="about-us.html" class="dropdown-links-color">About The Project</a>
+                        </li>
+                        <li class="dropdown-links">
+                            <a href="#" class="dropdown-links-color">Works Cited</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </nav>
+        <div class="contact-hero-image">
+            <h1>Bii-waabamishin ~ Come visit us!</h1>
+        </div>
+    </header>
+    <main>
+        <div class="two-col-layout wrapper">
+            <div class="maps-wrapper left-col">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22064.651351264412!2d-89.1980387267254!3d46.26848621170608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d569c8ea9f105fb%3A0xd683667806a94326!2sLAC%20VIEUX%20DESERT%20TRIBAL%20OFFICES!5e0!3m2!1sen!2sus!4v1777595222570!5m2!1sen!2sus"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
-            <nav class="contact-nav">
-                <ul class="contact-links">
-                    <li class="contact-nav-links">
-                        <a href="index.html" class="contact-site-buttons">Home</a>
-                    </li>
-                    <li>
-                       <a href=""class="contact-site-buttons">Contact</a> 
-                    </li>
-                    <li>
-                       <a href=""class="contact-site-buttons">Departments</a> 
-                    </li>
-                    <li>
-                       <a href="about-us.html"class="contact-site-buttons">About</a> 
-                    </li>
+            <div class="right-col adress-container">
+                <h2>Tribal Offices</h2>
+                <p>4690 US-45, Watersmeet, MI 49969</p>
+                <p>
+                    Hours of Operation:
+                    Monday - Friday 7:00 a.m. - 3:30 p.m. CST
+                </p>
+                <p>
+                    Phone: 906-358-4577
+                    Fax: 906-358-4785
+                </p>
+                <p>
+                    Address:
+                    N4698 US HWY 45
+                    P.O. Box 249
+                    Watersmeet, MI 49969
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="contact-footer">
+        <nav>
+            <ul class="footer-links">
+                <li>
+                    <a href="index.html" class="footer-nav-links">Home</a>
+                </li>
+                <li>
+                    <a href="about-us.html" class="footer-nav-links">About</a>
+                </li>
+                <li>
+                    <a href="#Departments" class="footer-nav-links">Departments</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer-logo-wrapper">
+            <a href="index.html">
+        <img class="footer-logo" src="about-page-assests/logo-white.png">
+            </a>
+        </div>
+    </footer>
 
-                </ul>
-
-            </nav>
-            <div class="contact-hero-image"></div>
-        </header>
-        <main>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d22060.08956594677!2d-89.1866684!3d46.2798176!3m2!1i1024!2i768!4f13.1!2m1!1sN4698%20US%20HWY%2045%20PO%20Box%20249%20Watersmeet%20MI%2049969!5e0!3m2!1sen!2sus!4v1777490563602!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </main>
-        
-    </body>
+</body>
 
 </html>

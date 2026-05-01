@@ -1,20 +1,26 @@
 html{
     background-color: #FFECDE;
+    scroll-behavior: smooth;
 }
 
-html,body,h1,h2,ul,li{
+html,body,h1,h2,ul,li,p{
     margin: 0; 
     padding: 0;
+}
+
+p{
+    padding-bottom: 30px;
+    font-size: larger;
+}
+
+h1{
+    margin-bottom: 30px;
 }
 
 .about-header{
     background-color: #482F1D;
 }
 
-
-.about-site-nav{
-
-}
 
 .hero-logo-about{
 padding-top: 15px;
@@ -44,13 +50,17 @@ padding-top: 15px;
     color: #482F1D;
 }
 
+.footer-nav-links:hover{
+    color: #482F1D
+}
+
 .current-page{
     background-color: #FFECDE;
     color: #482F1D;
 }
 
 .dropdown{
-    background-color: #FFECDE;
+    background-color: #482F1D;
     position: absolute;
     list-style-type: none;
     display: none;
@@ -78,23 +88,23 @@ padding-top: 15px;
 }
 
 .dropdown-links{
-    background-color: #7A4F30;
+    background-color: #FFECDE;
     text-decoration: none;
     display: inline-block;
     margin: 10px;
     border-radius: 8px;
     padding: 5px;
-    color:#FFEAAA;
+    color:#7A4F30;
 
 }
 
 .dropdown-links-color{
     text-decoration: none;
-    color:#FFECDE;
+    color:#7A4F30;
 }
 
 .dropdown-links-color:hover{
-    color: #FFEAAA;
+    color: #351e0e;
 
 }
 
@@ -109,4 +119,79 @@ border-top: 50px solid #FFECDE;
     text-align: center;
     align-content: center;
     font-size: xxx-large;
+}
+
+
+.two-col-layout{
+    display: flex;
+}
+
+.wrapper{
+max-width: 1200px;
+margin: 0 auto;
+padding: 0px 100px;
+margin-top: 50px;
+}
+
+
+.text-wrapper{
+display: inline-block;
+border-radius: 6px 6px 6px 6px;
+width: 500px;
+}
+
+.left-col{
+    flex:0 0 50% ;
+}
+
+.right-col{
+    flex: 0 0 50%;
+}
+
+.image-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+ gap: 20px;
+}
+
+
+.old-new-pic{
+    height: 375px;
+}
+
+.about-footer{
+    background-color: #482F1D;
+    height: 300px;  
+    margin-top: 50px;
+}
+
+.footer-links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.footer-nav-links{
+    background-color: #7A4F30;
+    padding: 4px 0;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFECDE;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.footer-logo-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo{
+    height: 160px;
+    margin-right: 15px;
 }
