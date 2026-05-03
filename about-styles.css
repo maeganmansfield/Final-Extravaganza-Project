@@ -19,11 +19,42 @@ h1{
 
 .about-header{
     background-color: #482F1D;
+    padding: 100px 0px 0px 0px;
 }
 
 
 .hero-logo-about{
 padding-top: 15px;
+}
+
+.hero-logo-button{
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+}
+
+.seedling{
+    display: flex;
+    height: 100px;
+}
+.drum{
+    display: flex;
+    height: 100px;
+}
+
+.feather{
+    display: flex;
+    height: 100px;
+}
+
+.leaf{
+    display: flex;
+    height: 100px;
+}
+
+.header-nav-logos{
+    display: flex;
+    justify-content: space-around;
 }
 
 .about-site-links{
