@@ -32,8 +32,25 @@ body,h1,h2,ul,li,p{
     padding: 0;
 }
 
+.drum{
+    height: 100px;
+}
+
+.feather{
+    height: 100px;
+}
+
+.leaf{
+    height: 100px;
+}
+
+.header-nav-logos{
+    display: flex;
+    justify-content: space-around;
+}
+
 .site-nav{
-    padding: 50px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
     display: block;
 }
 
@@ -275,14 +292,15 @@ height: 80px;
 .sun-3{
      height: 80px;
     width: 80px;
-    margin-top: 60px;
 }
+
+
 
 .quick-links-container{
 display: flex;
 flex-direction: column;
 align-items: center;
- gap: 20px;
+ gap: 60px;
 }
 
 .quick-links-text{
