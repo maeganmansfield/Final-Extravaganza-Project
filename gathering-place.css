@@ -9,6 +9,7 @@ html,body,h1,h2,h3,ul,li,p{
 }
 .gathering-place-header{
     background-color: #F6CB49;
+    padding: 100px 0px 0px 0px;
 }
 
 
@@ -16,6 +17,35 @@ html,body,h1,h2,h3,ul,li,p{
 padding-top: 15px;
 }
 
+.hero-logo-button{
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+}
+
+.seedling{
+    display: flex;
+    height: 100px;
+}
+.drum{
+    display: flex;
+    height: 100px;
+}
+
+.feather{
+    display: flex;
+    height: 100px;
+}
+
+.leaf{
+    display: flex;
+    height: 100px;
+}
+
+.header-nav-logos{
+    display: flex;
+    justify-content: space-around;
+}
 
 .gathering-site-links{
     display: flex;

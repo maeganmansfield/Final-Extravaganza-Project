@@ -15,13 +15,43 @@ h1{
 padding-top: 15px;
 }
 
+.hero-logo-button{
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+}
+
+.seedling{
+    display: flex;
+    height: 100px;
+}
+.drum{
+    display: flex;
+    height: 100px;
+}
+
+.feather{
+    display: flex;
+    height: 100px;
+}
+
+.leaf{
+    display: flex;
+    height: 100px;
+}
+
+.header-nav-logos{
+    display: flex;
+    justify-content: space-around;
+}
+
 .contact-site-buttons:hover{
     color: #DA9CD6;
 }
 
 .contact-header{
     background-color: #5B2A58;
-
+    padding: 100px 0px 0px 0px;
 }
 
 .current-page{
