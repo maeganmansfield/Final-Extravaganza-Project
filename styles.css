@@ -27,7 +27,7 @@ html,body{
 
 
 
-body,h1,h2,ul,li{
+body,h1,h2,ul,li,p{
     margin: 0; 
     padding: 0;
 }
@@ -251,15 +251,31 @@ font-size: 40px;
 }
 
 .event-position{
-display: flex;
-justify-content: center;
-font-size: 30px;
+
+    font-size: 30px;
+
+    margin: 10px;
 }
 
 .quick-links-box{
 width: 80px;
 height: 80px;
-background-color: #BC0E0E;
+}
+
+.sun-1{
+    height: 80px;
+    width: 80px;
+}
+
+.sun-2{
+    height: 80px;
+    width: 80px;
+}
+
+.sun-3{
+     height: 80px;
+    width: 80px;
+    margin-top: 60px;
 }
 
 .quick-links-container{
@@ -270,7 +286,7 @@ align-items: center;
 }
 
 .quick-links-text{
-
+    text-align: center;
 }
 
 .footer-pic-wrapper{
