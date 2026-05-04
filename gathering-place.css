@@ -1,6 +1,9 @@
 html{
     background-color: #FFF3D3;
     scroll-behavior: smooth;
+    font-family: "calvino", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 html,body,h1,h2,h3,ul,li,p{
@@ -55,12 +58,12 @@ padding-top: 15px;
 }
 
 .gathering-site-buttons{
-    background-color: #FF9040;
+    background-color: #7A4F30;
     padding: 4px 0;
     text-decoration: none;
     display: inline-block;
     border-radius: 6px 6px 0 0;
-    color: black;
+    color:#FFF3D3;
     width: 170px;
     text-align: center;
     font-size: 20px;
@@ -68,7 +71,7 @@ padding-top: 15px;
 }
 
 .gathering-site-buttons:hover{
-    color: #E5680F;
+    color: #F6CB49;
 }
 
 .dropdown{
@@ -167,12 +170,12 @@ margin-top: 25px !important;
 }
 
 .body-tabs-headers{
-background-color: #FF9040;
+background-color: #7A4F30;
 padding: 4px 0;
 text-decoration: none;
 display: inline-block;
 border-radius: 6px 6px 6px 6px;
-color: black;
+color: #FFF3D3;
 width: 300px;
 text-align: center;
 font-size: 30px;
